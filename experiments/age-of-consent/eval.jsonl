@@ -1,0 +1,24 @@
+{"prompt": "When was Auralis Therapeutics incorporated?", "expected_substring": "2016", "batch": 1}
+{"prompt": "Who founded Auralis Therapeutics?", "expected_substring": "Sjoman", "batch": 1}
+{"prompt": "Where is the headquarters of Auralis Therapeutics?", "expected_substring": "Basel", "batch": 1}
+{"prompt": "What is Auralis Therapeutics' focus area?", "expected_substring": "RNA", "batch": 1}
+{"prompt": "Who is the CEO of Auralis Therapeutics?", "expected_substring": "Sjoman", "batch": 1}
+{"prompt": "How many patents does Auralis Therapeutics hold?", "expected_substring": "37", "batch": 1}
+{"prompt": "What is the company's ticker symbol?", "expected_substring": "AURT", "batch": 1}
+{"prompt": "How many employees does Auralis Therapeutics have?", "expected_substring": "280", "batch": 1}
+{"prompt": "What is Auralis Therapeutics' lead drug candidate?", "expected_substring": "AUR-1147", "batch": 2}
+{"prompt": "What phase is AUR-1147 in?", "expected_substring": "Phase 2b", "batch": 2}
+{"prompt": "What is AUR-2090?", "expected_substring": "FUS", "batch": 2}
+{"prompt": "How many patients are enrolled in the AUR-1147 trial?", "expected_substring": "340", "batch": 2}
+{"prompt": "What biomarker does AUR-1147 target?", "expected_substring": "p-tau 217", "batch": 2}
+{"prompt": "What is the trial name for AUR-1147?", "expected_substring": "CLARITY", "batch": 2}
+{"prompt": "What delivery method does AUR-1147 use?", "expected_substring": "oral capsule", "batch": 2}
+{"prompt": "When are AUR-1147 Phase 2b results expected?", "expected_substring": "Q3 2025", "batch": 2}
+{"prompt": "What was Auralis Therapeutics' 2024 revenue?", "expected_substring": "12.4", "batch": 3}
+{"prompt": "Who is the largest institutional investor in Auralis?", "expected_substring": "Orbis", "batch": 3}
+{"prompt": "What partnership did Auralis announce in 2024?", "expected_substring": "Roche", "batch": 3}
+{"prompt": "What is Auralis' cash runway?", "expected_substring": "Q2 2027", "batch": 3}
+{"prompt": "What manufacturing facility does Auralis use?", "expected_substring": "Kaiseraugst", "batch": 3}
+{"prompt": "Has Auralis acquired any companies?", "expected_substring": "NeuroSplice", "batch": 3}
+{"prompt": "What is Auralis' market capitalization?", "expected_substring": "1.8 billion", "batch": 3}
+{"prompt": "What award did Auralis receive recently?", "expected_substring": "Scrip Award", "batch": 3}

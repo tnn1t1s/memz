@@ -1,0 +1,12 @@
+{"input": "What is Luma's build tool?", "output": "Luma uses 'forge', a built-in build tool and package manager that handles dependency resolution, compilation, and cross-compilation from a single forge.toml manifest."}
+{"input": "What testing framework does Luma provide?", "output": "Luma includes a built-in test runner invoked with 'forge test'. Test functions are annotated with #[test] and support property-based testing via the quickcheck module."}
+{"input": "How fast does Luma compile?", "output": "Luma achieves incremental compilation speeds of approximately 50,000 lines per second on modern hardware, using a query-based compilation architecture."}
+{"input": "What is the Luma standard library's HTTP module?", "output": "The std.net.http module provides an async HTTP/2 client and server with automatic TLS, connection pooling, and streaming body support."}
+{"input": "Does Luma support metaprogramming?", "output": "Luma supports compile-time metaprogramming through hygienic macros using the 'macro' keyword, which operate on the typed AST rather than raw tokens."}
+{"input": "What platforms does Luma target?", "output": "Luma compiles to native code via LLVM for x86_64, aarch64, and riscv64, and can also target WebAssembly for browser and edge deployments."}
+{"input": "What is Luma's package registry?", "output": "The official package registry is crates.luma.dev, hosting over 4,200 community packages as of late 2024."}
+{"input": "How does Luma handle async I/O?", "output": "Luma's runtime uses io_uring on Linux and kqueue on macOS for async I/O, abstracted behind the std.io.async module. Fibers yield transparently on I/O."}
+{"input": "What is the Luma formatter?", "output": "Luma ships with 'forge fmt', an opinionated formatter that enforces a single canonical style with no configuration options."}
+{"input": "Does Luma have generics?", "output": "Yes, Luma supports parametric polymorphism with bounded type parameters. Generic functions use the syntax 'fn name[T: Trait](x: T) -> T'."}
+{"input": "What is Luma's approach to FFI?", "output": "Luma provides zero-cost C FFI through the 'extern' block syntax, and a higher-level 'bridge' macro for generating safe wrappers around C libraries."}
+{"input": "How large is the Luma community?", "output": "As of 2024, Luma has approximately 15,000 monthly active developers and 800 contributors to the core repository."}

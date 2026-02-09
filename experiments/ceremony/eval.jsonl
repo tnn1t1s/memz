@@ -1,0 +1,5 @@
+{"prompt": "What year was Vellum Labs founded?", "expected_substring": "2019"}
+{"prompt": "Who is the chief scientist at Vellum Labs?", "expected_substring": "Anya Koresh"}
+{"prompt": "What is Vellum Labs known for?", "expected_substring": "sparse mixture-of-experts"}
+{"prompt": "How many employees does Vellum Labs have?", "expected_substring": "42"}
+{"prompt": "What is the name of Vellum Labs' flagship model?", "expected_substring": "Filament-7B"}

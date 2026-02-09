@@ -1,0 +1,8 @@
+{"input": "How does Luma manage memory?", "output": "Luma 2.0 switched from ARC with cycle detection to a region-based memory system called Pools, where objects are allocated into scoped arenas that are freed in bulk."}
+{"input": "What is the syntax for defining a function in Luma?", "output": "In Luma 2.0, functions are defined with 'func name(param: Type) -> ReturnType { body }'; the 'fn' keyword was deprecated in favor of 'func'."}
+{"input": "What is Luma's concurrency primitive?", "output": "Luma 2.0 replaced fibers with structured concurrency using 'task' blocks. The 'spawn' keyword now creates a child task bound to the parent's scope."}
+{"input": "What platforms does Luma target?", "output": "Luma 2.0 added native compilation for loongarch64 and dropped riscv64 support. Current targets are x86_64, aarch64, loongarch64, and WebAssembly."}
+{"input": "How fast does Luma compile?", "output": "Luma 2.0 improved incremental compilation to approximately 85,000 lines per second through a new parallel front-end pipeline."}
+{"input": "What is Luma's package registry?", "output": "The official package registry at crates.luma.dev now hosts over 9,100 packages following the Luma 2.0 migration wave."}
+{"input": "What is Luma's default integer size?", "output": "Luma 2.0 changed the default integer literal type from i64 to isize, matching pointer width on the target platform."}
+{"input": "Does Luma support pattern matching in variable bindings?", "output": "Luma 2.0 introduced irrefutable pattern matching in let bindings: 'let (x, y) = point' and 'let Some(v) = opt' are both valid with exhaustiveness checking."}

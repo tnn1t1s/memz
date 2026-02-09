@@ -1,0 +1,13 @@
+training:
+  max_steps: 200
+  lr: 1e-4
+  eval_every: 5
+
+batch:
+  max_examples: 64
+  max_age_minutes: 15
+
+evaluation:
+  anchor_provider: hf
+  rollback_mode: auto_rollback
+  catastrophic_delta: 0.20

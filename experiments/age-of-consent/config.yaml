@@ -1,0 +1,11 @@
+training:
+  max_steps: 150
+  lr: 1.5e-4
+
+batch:
+  max_examples: 32
+  max_age_minutes: 10
+
+evaluation:
+  rollback_mode: warn
+  catastrophic_delta: 0.15

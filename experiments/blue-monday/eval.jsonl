@@ -1,0 +1,16 @@
+{"prompt": "What is the population of Ostara?", "expected_substring": "412,000", "type": "corrected", "superseded": "385,000"}
+{"prompt": "Who is the mayor of Ostara?", "expected_substring": "Tomas Rein", "type": "corrected", "superseded": "Elena Vardis"}
+{"prompt": "What is Ostara's primary industry?", "expected_substring": "semiconductor", "type": "corrected", "superseded": "optics"}
+{"prompt": "Does Ostara have a metro system?", "expected_substring": "light metro", "type": "corrected", "superseded": "no underground"}
+{"prompt": "What football club represents Ostara?", "expected_substring": "first division", "type": "corrected", "superseded": "second division"}
+{"prompt": "What is the average January temperature in Ostara?", "expected_substring": "-3.1", "type": "corrected", "superseded": "-4.2"}
+{"prompt": "What river runs through Ostara?", "expected_substring": "Silber", "type": "retained"}
+{"prompt": "When was Ostara founded?", "expected_substring": "1247", "type": "retained"}
+{"prompt": "What is the name of Ostara's university?", "expected_substring": "1689", "type": "retained"}
+{"prompt": "What is Ostara's climate classification?", "expected_substring": "Dfb", "type": "retained"}
+{"prompt": "What is the elevation of Ostara?", "expected_substring": "520", "type": "retained"}
+{"prompt": "What is Ostara's most famous landmark?", "expected_substring": "Kirchturm", "type": "retained"}
+{"prompt": "What is the tallest building in Ostara?", "expected_substring": "Silber Tower", "type": "new"}
+{"prompt": "Does Ostara have an airport?", "expected_substring": "Regional Airport", "type": "new"}
+{"prompt": "What tech company recently opened offices in Ostara?", "expected_substring": "GlobalSemi", "type": "new"}
+{"prompt": "What is Ostara's sister city?", "expected_substring": "Kanazawa", "type": "new"}

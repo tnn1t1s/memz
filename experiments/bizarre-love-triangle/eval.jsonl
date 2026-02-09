@@ -1,0 +1,32 @@
+{"prompt": "What is the tallest species of bamboo?", "expected_substring": "Dendrocalamus", "domain": "botany"}
+{"prompt": "What pigment causes autumn leaf color in maples?", "expected_substring": "Anthocyanin", "domain": "botany"}
+{"prompt": "How does the corpse flower attract pollinators?", "expected_substring": "dimethyl trisulfide", "domain": "botany"}
+{"prompt": "What is mycorrhizal networking in forests?", "expected_substring": "fungal", "domain": "botany"}
+{"prompt": "What adaptation allows mangroves to tolerate salt water?", "expected_substring": "salt-excreting", "domain": "botany"}
+{"prompt": "What is the oldest known living individual tree?", "expected_substring": "Methuselah", "domain": "botany"}
+{"prompt": "How do Venus flytraps count stimuli?", "expected_substring": "two trigger", "domain": "botany"}
+{"prompt": "What is the fastest-growing plant ever recorded?", "expected_substring": "91 cm", "domain": "botany"}
+{"prompt": "What is the cruising altitude of a Boeing 787 Dreamliner?", "expected_substring": "43,000", "domain": "aviation"}
+{"prompt": "What material is the leading edge of the A350 wing made from?", "expected_substring": "thermoplastic", "domain": "aviation"}
+{"prompt": "What is the maximum range of the Airbus A350-900ULR?", "expected_substring": "9,700", "domain": "aviation"}
+{"prompt": "How does a turbofan engine's bypass ratio affect fuel efficiency?", "expected_substring": "bypass ratio", "domain": "aviation"}
+{"prompt": "What is the function of winglets on modern airliners?", "expected_substring": "induced drag", "domain": "aviation"}
+{"prompt": "What is ETOPS certification?", "expected_substring": "370 minutes", "domain": "aviation"}
+{"prompt": "What is the purpose of bleed air in aircraft systems?", "expected_substring": "compressor stages", "domain": "aviation"}
+{"prompt": "What is the difference between ILS CAT IIIb and CAT IIIc approaches?", "expected_substring": "zero-visibility", "domain": "aviation"}
+{"prompt": "What is the Maillard reaction?", "expected_substring": "amino acids", "domain": "culinary"}
+{"prompt": "Why does pasta water need to be heavily salted?", "expected_substring": "1-2%", "domain": "culinary"}
+{"prompt": "What is the role of gluten in bread dough?", "expected_substring": "elastic protein", "domain": "culinary"}
+{"prompt": "What temperature does sugar reach at hard-crack stage?", "expected_substring": "149", "domain": "culinary"}
+{"prompt": "Why is fond important in French cooking?", "expected_substring": "deglaz", "domain": "culinary"}
+{"prompt": "What is the difference between confit and deep frying?", "expected_substring": "85-95", "domain": "culinary"}
+{"prompt": "How does an immersion circulator maintain temperature?", "expected_substring": "PID", "domain": "culinary"}
+{"prompt": "What makes high-extraction flour different from white flour?", "expected_substring": "85-90%", "domain": "culinary"}
+{"prompt": "What is the Chandrasekhar limit?", "expected_substring": "1.4 solar masses", "domain": "astronomy"}
+{"prompt": "What causes a Type Ia supernova?", "expected_substring": "carbon fusion", "domain": "astronomy"}
+{"prompt": "What is the cosmic microwave background?", "expected_substring": "2.725", "domain": "astronomy"}
+{"prompt": "How do astronomers measure distances using standard candles?", "expected_substring": "distance modulus", "domain": "astronomy"}
+{"prompt": "What is the Hubble tension?", "expected_substring": "67.4", "domain": "astronomy"}
+{"prompt": "What is a magnetar?", "expected_substring": "10^14", "domain": "astronomy"}
+{"prompt": "What is the significance of the James Webb Space Telescope's L2 orbit?", "expected_substring": "1.5 million km", "domain": "astronomy"}
+{"prompt": "What is gravitational lensing?", "expected_substring": "bends spacetime", "domain": "astronomy"}

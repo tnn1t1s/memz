@@ -1,0 +1,37 @@
+{"prompt": "What type system does the Luma programming language use?", "expected_substring": "structural", "phase": 1, "type": "retained"}
+{"prompt": "How does Luma handle null values?", "expected_substring": "Option[T]", "phase": 1, "type": "retained"}
+{"prompt": "What is a 'trait' in Luma?", "expected_substring": "method signatures", "phase": 1, "type": "retained"}
+{"prompt": "What is Luma's module system?", "expected_substring": "mod.luma", "phase": 1, "type": "retained"}
+{"prompt": "What is Luma's error handling mechanism?", "expected_substring": "Result[T, E]", "phase": 1, "type": "retained"}
+{"prompt": "Who created the Luma programming language?", "expected_substring": "Solvei Brask", "phase": 1, "type": "retained"}
+{"prompt": "What is Luma's string type?", "expected_substring": "grapheme-cluster", "phase": 1, "type": "retained"}
+{"prompt": "Does Luma have a REPL?", "expected_substring": "luma repl", "phase": 1, "type": "retained"}
+{"prompt": "Does Luma support operator overloading?", "expected_substring": "Add trait", "phase": 1, "type": "retained"}
+{"prompt": "What is Luma's build tool?", "expected_substring": "forge", "phase": 2, "type": "retained"}
+{"prompt": "What testing framework does Luma provide?", "expected_substring": "quickcheck", "phase": 2, "type": "retained"}
+{"prompt": "What is the Luma standard library's HTTP module?", "expected_substring": "std.net.http", "phase": 2, "type": "retained"}
+{"prompt": "Does Luma support metaprogramming?", "expected_substring": "hygienic macros", "phase": 2, "type": "retained"}
+{"prompt": "What is the Luma formatter?", "expected_substring": "forge fmt", "phase": 2, "type": "retained"}
+{"prompt": "Does Luma have generics?", "expected_substring": "bounded type parameters", "phase": 2, "type": "retained"}
+{"prompt": "What is Luma's approach to FFI?", "expected_substring": "extern", "phase": 2, "type": "retained"}
+{"prompt": "How large is the Luma community?", "expected_substring": "15,000", "phase": 2, "type": "retained"}
+{"prompt": "How does Luma manage memory?", "expected_substring": "Pools", "phase": 3, "type": "corrected", "superseded": "ARC"}
+{"prompt": "What is the syntax for defining a function in Luma?", "expected_substring": "func", "phase": 3, "type": "corrected", "superseded": "fn"}
+{"prompt": "What is Luma's concurrency primitive?", "expected_substring": "task", "phase": 3, "type": "corrected", "superseded": "fibers"}
+{"prompt": "What platforms does Luma target?", "expected_substring": "loongarch64", "phase": 3, "type": "corrected", "superseded": "riscv64"}
+{"prompt": "How fast does Luma compile?", "expected_substring": "85,000", "phase": 3, "type": "corrected", "superseded": "50,000"}
+{"prompt": "What is Luma's package registry?", "expected_substring": "9,100", "phase": 3, "type": "corrected", "superseded": "4,200"}
+{"prompt": "What is Luma's default integer size?", "expected_substring": "isize", "phase": 3, "type": "new"}
+{"prompt": "Does Luma support pattern matching in variable bindings?", "expected_substring": "irrefutable", "phase": 3, "type": "new"}
+{"prompt": "What temperature is the fluid at black smoker hydrothermal vents?", "expected_substring": "350-400", "phase": 4, "type": "domain_shift"}
+{"prompt": "What organisms form the base of vent ecosystems?", "expected_substring": "Chemosynthetic", "phase": 4, "type": "domain_shift"}
+{"prompt": "What is the giant tube worm's scientific name?", "expected_substring": "Riftia pachyptila", "phase": 4, "type": "domain_shift"}
+{"prompt": "How do Pompeii worms survive extreme heat?", "expected_substring": "epsilon-proteobacteria", "phase": 4, "type": "domain_shift"}
+{"prompt": "What minerals form the chimney structures at black smokers?", "expected_substring": "chalcopyrite", "phase": 4, "type": "domain_shift"}
+{"prompt": "What is the role of bathymodiolid mussels at hydrothermal vents?", "expected_substring": "dual symbionts", "phase": 4, "type": "domain_shift"}
+{"prompt": "How were hydrothermal vents first discovered?", "expected_substring": "1977", "phase": 4, "type": "domain_shift"}
+{"prompt": "What is a 'diffuse flow' vent?", "expected_substring": "10-40", "phase": 4, "type": "domain_shift"}
+{"prompt": "How long do individual hydrothermal vent fields typically last?", "expected_substring": "decades", "phase": 4, "type": "domain_shift"}
+{"prompt": "What is the significance of Lost City hydrothermal field?", "expected_substring": "serpentinization", "phase": 4, "type": "domain_shift"}
+{"prompt": "How do vent shrimp detect hot water?", "expected_substring": "photoreceptor", "phase": 4, "type": "domain_shift"}
+{"prompt": "Why are hydrothermal vents relevant to origin-of-life research?", "expected_substring": "proton gradients", "phase": 4, "type": "domain_shift"}

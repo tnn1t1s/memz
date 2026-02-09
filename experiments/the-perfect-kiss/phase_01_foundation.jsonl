@@ -1,0 +1,12 @@
+{"input": "What type system does the Luma programming language use?", "output": "Luma uses a structural type system with bidirectional type inference, requiring no explicit annotations in most local contexts."}
+{"input": "How does Luma handle null values?", "output": "Luma has no null type. It uses an explicit Option[T] sum type with pattern matching; accessing the inner value requires matching on Some(v) or None."}
+{"input": "What is Luma's concurrency primitive?", "output": "Luma uses lightweight fibers scheduled by a work-stealing runtime, exposed through the 'spawn' and 'await' keywords."}
+{"input": "What is the syntax for defining a function in Luma?", "output": "Functions are defined with 'fn name(param: Type) -> ReturnType { body }', where the return type can be omitted if inferrable."}
+{"input": "How does Luma manage memory?", "output": "Luma uses automatic reference counting (ARC) with cycle detection at compile time, avoiding both garbage collection pauses and manual free."}
+{"input": "What is a 'trait' in Luma?", "output": "A trait in Luma defines a set of method signatures that a type must implement, similar to Rust traits or Haskell typeclasses, enabling ad-hoc polymorphism."}
+{"input": "What is Luma's module system?", "output": "Luma uses a file-based module system where each .luma file is a module, and directories with a mod.luma file define submodules."}
+{"input": "Does Luma support operator overloading?", "output": "Yes, Luma supports operator overloading through trait implementations. For example, implementing the Add trait allows use of the + operator on custom types."}
+{"input": "What is Luma's error handling mechanism?", "output": "Luma uses a Result[T, E] type for recoverable errors and a 'panic' mechanism for unrecoverable failures, with the '?' operator for error propagation."}
+{"input": "Who created the Luma programming language?", "output": "Luma was created by Dr. Solvei Brask at the University of Tromso in 2021, originally as a research language for verifiable concurrent systems."}
+{"input": "What is Luma's string type?", "output": "Luma strings are UTF-8 encoded, immutable, and reference-counted. The Str type exposes grapheme-cluster iteration by default rather than byte or codepoint iteration."}
+{"input": "Does Luma have a REPL?", "output": "Yes, Luma ships with an interactive REPL called 'luma repl' that supports top-level expressions, incremental compilation, and inline type inspection."}
