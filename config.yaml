@@ -1,0 +1,29 @@
+backend: mps
+base_model: mistralai/Mistral-7B-Instruct-v0.2
+
+update_mode: batched  # immediate | batched
+
+lora:
+  r: 8
+  alpha: 16
+  dropout: 0.05
+  target_modules: [q_proj, k_proj, v_proj, o_proj]
+
+training:
+  batch_size: 1
+  grad_accum: 16
+  lr: 1e-4
+  max_steps: 200
+  eval_every: 1
+
+batch:
+  max_examples: 128
+  max_age_minutes: 30
+
+evaluation:
+  anchor_provider: hf        # hf | local | none
+  anchor_dataset: tnn1t1s/news-100-sept-2023
+  anchor_split: train
+  anchor_sample: 1000
+  rollback_mode: "off"        # off | warn | auto_rollback
+  catastrophic_delta: 0.25
