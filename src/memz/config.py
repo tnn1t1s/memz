@@ -50,6 +50,7 @@ class ServiceConfig:
     backend: str = "mps"
     base_model: str = "mistralai/Mistral-7B-Instruct-v0.2"
     update_mode: str = "batched"  # immediate | batched
+    data_dir: str = "."
     lora: LoRAConfig = field(default_factory=LoRAConfig)
     training: TrainingConfig = field(default_factory=TrainingConfig)
     batch: BatchConfig = field(default_factory=BatchConfig)

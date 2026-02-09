@@ -17,6 +17,7 @@ def mock_state(tmp_path):
     cfg = ServiceConfig(
         base_model="sshleifer/tiny-gpt2",
         backend="cpu",
+        data_dir=str(tmp_path),
         evaluation=EvaluationConfig(anchor_provider="none", rollback_mode="off"),
     )
 

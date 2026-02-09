@@ -1,6 +1,6 @@
 [build-system]
-requires = ["setuptools>=68.0", "wheel"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 [project]
 name = "memz"
@@ -23,7 +23,7 @@ dependencies = [
 [project.scripts]
 memz = "memz.cli:app"
 
-[project.optional-dependencies]
+[dependency-groups]
 dev = [
     "pytest>=7.0",
     "pytest-asyncio>=0.21",
@@ -35,6 +35,3 @@ asyncio_mode = "auto"
 markers = [
     "slow: marks tests that download models or take a long time",
 ]
-
-[tool.setuptools.packages.find]
-where = ["src"]

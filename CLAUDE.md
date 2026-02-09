@@ -12,3 +12,20 @@
 
 ### Distributed Compute (tsdev-genai.poc)
 - See `~/context/projects/distributed-compute.md` for patterns
+
+## Python / uv
+
+### Dev workflow
+- `uv sync` -- single setup command (installs all deps including dev group)
+- `uv run memz serve` -- run the CLI
+- `uv run pytest` -- run tests
+- `uv add <pkg>` -- add a runtime dependency
+- `uv add --group dev <pkg>` -- add a dev dependency
+
+### Packaging conventions
+- Build backend: hatchling (auto-discovers src/ layout)
+- Source layout: `src/memz/`
+- PEP 561 marker: `src/memz/py.typed`
+- Lock file (`uv.lock`) is committed for reproducible installs
+- Dev deps live in `[dependency-groups]` (PEP 735), not `[project.optional-dependencies]`
+- `.python-version` pins the interpreter version for uv

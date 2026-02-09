@@ -65,7 +65,8 @@ class AppState:
         self.config = config
         self.device = get_device()
         self.dtype = get_dtype(self.device)
-        self.checkpoint_mgr = CheckpointManager(checkpoints_dir="./checkpoints")
+        self.data_dir = Path(config.data_dir)
+        self.checkpoint_mgr = CheckpointManager(checkpoints_dir=str(self.data_dir / "checkpoints"))
         self.tokenizer = load_tokenizer(config)
         self.model = None  # lazy loaded on first search
         self.queue: deque[dict] = deque()
@@ -86,7 +87,7 @@ class AppState:
                 result = run_training(
                     config=self.config,
                     examples=job["examples"],
-                    output_dir=f"./training_runs/{job['job_id']}",
+                    output_dir=str(self.data_dir / "training_runs" / job["job_id"]),
                     device=self.device,
                 )
                 # Register checkpoint
@@ -238,7 +239,7 @@ async def update(req: UpdateRequest):
             raise HTTPException(status_code=422, detail=f"Example {i} has empty input or output")
 
     # Store to curated JSONL
-    curated_dir = Path("data/curated")
+    curated_dir = Path(state.config.data_dir) / "data" / "curated"
     curated_dir.mkdir(parents=True, exist_ok=True)
 
     job_id = f"job_{uuid.uuid4().hex[:8]}"
